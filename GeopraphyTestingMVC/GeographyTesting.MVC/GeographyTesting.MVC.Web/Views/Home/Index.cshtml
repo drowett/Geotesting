@@ -1,0 +1,14 @@
+﻿@model IList<GeographyTesting.MVC.Web.Models.Location>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+    <div class="jumbotron">
+        <h1 class="display-4">Location(s) Found: @Model.Count()</h1>
+        <ul>
+            @foreach (var item in Model)
+            {
+                <li><b>@item.Name</b> @item.GeoLocation.X @item.GeoLocation.Y</li>
+            }
+        </ul>
+    </div>

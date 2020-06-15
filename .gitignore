@@ -1,0 +1,9 @@
+*.pdb
+*.exe
+GeopraphyTestingMVC/GeographyTesting.MVC/GeographyTesting.MVC.Web/bin/
+GeographyTesting/GeographyTesting.web/obj/Debug/
+GeographyTesting/GeographyTesting.web/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll
+GeographyTesting/GeographyTesting.web/bin/Debug/
+GeopraphyTestingMVC/GeographyTesting.MVC/packages/Antlr.3.5.0.2/.signature.p7s
+GeopraphyTestingMVC/GeographyTesting.MVC/packages/
+*.cache
